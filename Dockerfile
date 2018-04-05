@@ -8,7 +8,7 @@ RUN pip install --trusted-host pypi.python.org -r requirements.txt
 
 EXPOSE 82
 
-ENV NAME cuongthn1
+ENV NAME cuongthn
 
 CMD ["python", "app.py"]
 
